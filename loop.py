@@ -75,4 +75,40 @@
 # for i in range(1,6):
 #         prod*=i
 # print(prod)
-        
+
+        # print the product of numbers until user enter zero 
+# prod=1
+# while True:
+#         number=int(input('Enter number:'))
+#         if number==0:
+#                 break
+#         prod *= number
+# print('product of the numbers is:',prod)       
+
+#                 aliter
+
+# prod = 1  # Initialize the product to 1
+# first_input = True  # Flag to track if it's the first input
+
+# while True:
+#     number = int(input('Enter number: '))
+    
+#     if number == 0:  # If the user enters 0, exit the loop
+#         if first_input:  # If it's the first input and the user entered 0
+#             prod = 0  # Set product to 0 if no other number has been entered
+#         break
+    
+#     prod *= number  # Multiply the product with the current number
+#     first_input = False  # After the first valid input, set the flag to False
+
+# print('Product of the numbers is:', prod)
+
+
+        #  sum of numbers  until user enter negative number
+# sum=0
+# while True:
+#         number=int(input('Enter number:'))
+#         if number<0:
+#                 break
+#         sum += number
+# print('sum of the numbers is:',sum)      
