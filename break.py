@@ -51,3 +51,7 @@
 #         continue
 #     print(i)
 
+        #9 future implementation
+# list=[1,-2,-1,3,4,0]
+# for i in list:
+#     pass
