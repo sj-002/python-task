@@ -13,3 +13,18 @@
 # for i in range(1, n + 1):
 #     print('1'*i) 
 
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#         print(6-j,end='')
+#     print()
+    
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#         print(6-i,end='')
+#     print()
+
+# letter='abcde'
+# for i in range(1,6):
+#         print(letter)
+
+
