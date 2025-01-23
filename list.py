@@ -19,3 +19,11 @@
 # print('seen elements are:',seen)
 # print('duplicate elements are:',duplicate)
 
+        # Product of list when zero it can't product that number
+# list=[1,2,0,5]
+# prod=1 
+# for i in list:
+#     if(i!=0):
+#         prod*=i
+# print('product of the items in list is:',prod)
+

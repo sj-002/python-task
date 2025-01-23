@@ -12,7 +12,7 @@
     
         #2  check its a Email Id    
 # email=input('enter email:')
-# if '@gmail.com' in email:
+# if email.endswith ('@gmail.com') :
 #     print('Valid mail id')
 # else:
 #     print('invalid mail id')
