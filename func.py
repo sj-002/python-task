@@ -1,3 +1,4 @@
+        #PRIME NUMBER
 # def prime(num):
 #     if num<2:
 #         return False
@@ -32,6 +33,7 @@
 #     print(f"{num} is not a prime number.")
 
 
+        #COUNT CHRACTERS
 # def character():
 #     char=input('enter character:')
 #     count=0
@@ -40,6 +42,8 @@
 #     print('number of characters is',count)
 # character()
 
+
+        #SUM OF SQUARES
 # def operation(num):
 #     sum=0
 #     for i in range(num):
@@ -50,3 +54,48 @@
 # operation(num)
 
 
+        #ARMSTRONG NUMBER
+# num = int(input('Enter number: '))
+# power = len(str(num))  # Number of digits in the number
+# sum_of_powers = 0
+
+# for i in str(num):
+#     sum_of_powers += int(i) ** power
+
+# if sum_of_powers == num:
+#     print('Yes, it is an Armstrong number')
+# else:
+#     print('No, it is not an Armstrong number')
+
+        #ALITER
+# num=int(input('enter number:'))
+# sum=0
+# for x in str(num):
+#     sum += int(x)**3
+# if sum==num:
+#     print(num,'is a Armstrong number')
+# else:
+#     print(num, 'is Not a armstrong number')
+
+        #LEAP YEAR
+# def year():
+#      x=int(input('enter year:'))
+#      if (x%4==0 and x%100!=0):
+#         print('leap year')
+#      else:
+#         print('not a leap year')
+# year()
+
+# x=[1,2,3,1,4,2]
+# seen=set()
+# duplicate=[]
+# for items in x:
+#     if items in seen:
+#         duplicate.append(items)
+#     else:
+#         seen.add(items)
+# print('seen elements are:',seen)
+# print('duplicate elements are:',duplicate)
+
+
+    
