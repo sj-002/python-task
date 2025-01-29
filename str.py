@@ -33,9 +33,9 @@
 #     print('login unsuccessful,check username or password')
    
     #5 check is ascii 
-# txt = 'ab'
-# x = txt.isascii()
-# print(x)
+txt = '!!@'
+x = txt.isascii()
+print(x)
 
 
 
