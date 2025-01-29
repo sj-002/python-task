@@ -143,16 +143,5 @@
 #         print('not a leap year')
 # year()
 
-# x=[1,2,3,1,4,2]
-# seen=set()
-# duplicate=[]
-# for items in x:
-#     if items in seen:
-#         duplicate.append(items)
-#     else:
-#         seen.add(items)
-# print('seen elements are:',seen)
-# print('duplicate elements are:',duplicate)
-
 
     
