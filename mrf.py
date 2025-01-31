@@ -56,10 +56,10 @@
 # print('given string is:',con)
 
     #15
-# from functools import reduce
-# number=[1,2,3,4,5]
-# red=reduce(lambda x:x,number)
-# print(red)
+from functools import reduce
+number=[1,2,3]
+red=reduce(lambda x,y:(x+y)**2,number)
+print(red)
 
     #17
 # import math
