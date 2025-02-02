@@ -67,8 +67,6 @@
 #     print('sum is:',sum)
 # recursion(2,4,6,8,10)
 
-
-
     #5 GET INPUT AND PRINT FACT
 # import math
 # def recursion(x):
@@ -80,3 +78,12 @@
 #         print('factorial of a number is:', math.factorial(x))
 # number=(int(input('enter number:')))
 # recursion(number)
+
+# a=[1,2,3]
+# for i in a:
+#     a=map(i*i)
+#     print(a)
+        
+numbers=[1,2,3,4,5]
+squared_numbers = list(map(lambda x: x * x, numbers))
+print(squared_numbers)
