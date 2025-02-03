@@ -52,6 +52,8 @@
 # x=lambda a:a*a
 # print(x(15))
 
+
+
     #1 RECURSION
 # def recursion(k):
 #     for i in range(k):
