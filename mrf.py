@@ -92,3 +92,17 @@
 # numbers = [1, 2, 3, 4, 5]
 # random.shuffle(numbers)
 # print("Shuffled Numbers:", numbers)
+
+# import module
+# a=module.person['country'] and ['age']
+# print(a)
+
+# import random
+# random_int = random.random()
+# print(random_int)
+
+
+# my_list = ['apple', 'banana', 'cherry', 'date']
+# a = random.choice(my_list)
+# print(a)
+
