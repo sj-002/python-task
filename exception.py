@@ -42,16 +42,16 @@
 #         print('successfully printed')
 # square()
 
-
-def number():
-    try:
-       number=int(input('enter number:'))
-       if number>0:
-           print(number)
-       else:
-           pass
-    except ValueError:
-        print('input number is negative',)
-number()
+    #5
+# def number():
+#     try:
+#        number=int(input('enter number:'))
+#        if number<0:
+#            print('negative number')
+#        else:
+#            print(number)
+#     except ValueError:
+#         print('invalid value')
+# number()
 
 
