@@ -7,7 +7,7 @@
 #         return 'invalid operation'
 # print(reciprocal()) 
 
-    #2
+#     #2
 # def reciprocal():
 #     try:
 #         a=int(input('enter number:'))
@@ -53,5 +53,6 @@
 #     except ValueError:
 #         print('invalid value')
 # number()
+
 
 
