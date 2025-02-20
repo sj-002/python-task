@@ -55,33 +55,132 @@
 
 
     #2 Class and obj using constructor
-class library:
-    def __init__(self,fiction_row,history_row,mystery_row,nonfiction_row):
-        self.fiction_row=fiction_row
-        self.history_row=history_row
-        self.mystery_row=mystery_row
-        self.nonfiction_row=nonfiction_row
+# class library:
+#     def __init__(self,fiction_row,history_row,mystery_row,nonfiction_row):
+#         self.fiction_row=fiction_row
+#         self.history_row=history_row
+#         self.mystery_row=mystery_row
+#         self.nonfiction_row=nonfiction_row
         
-    def fiction(self):
-        print(f'Fiction books are in the {self.fiction_row}')
-    def history(self):
-        print(f'History books are in the {self.history_row}')
-    def mystery(self):
-        print(f'Mystery books are in the {self.mystery_row}')
-    def nonfiction(self):
-        print(f'Non-fiction books are in the {self.nonfiction_row}')
+#     def fiction(self):
+#         print(f'Fiction books are in the {self.fiction_row}')
+#     def history(self):
+#         print(f'History books are in the {self.history_row}')
+#     def mystery(self):
+#         print(f'Mystery books are in the {self.mystery_row}')
+#     def nonfiction(self):
+#         print(f'Non-fiction books are in the {self.nonfiction_row}')
 
-lib=library('row 1','row 2', 'row 3', 'row 4')
-lib.fiction()
-lib.history()
-lib.mystery()
-lib.nonfiction()
+# lib=library('row 1','row 2', 'row 3', 'row 4')
+# lib.fiction()
+# lib.history()
+# lib.mystery()
+# lib.nonfiction()
 
-lib2=library('row 4 for lib2', 'row 1 for lib2','row 2 for lib2','row 3 for lib2')
-lib2.history()
-lib2.mystery()
-lib2.nonfiction()
-lib2.fiction()
+# lib2=library('row 4 for lib2', 'row 1 for lib2','row 2 for lib2','row 3 for lib2')
+# lib2.history()
+# lib2.mystery()
+# lib2.nonfiction()
+# lib2.fiction()
 
+        #INHERITANCE
+    #1 SINGLE INHERITANCE
+# class parent:
+#     def bike(self):
+#         print("dad's bike")
+# class child(parent):
+#     def car(self):
+#         print("child's car")
+# a=child()
+# a.bike()
+# a.car()
+
+    #2 MULTIPLE INHERITANCE
+# class parent:
+#     def walk(self):
+#         print('dad goes by walk')
+# class son1:
+#     def bike(self):
+#         print('1st son rides a bike')
+# class son2(son1,parent):
+#     def car(self):
+#         print('2nd son rides both bike and car')    
+# a=son2()
+# a.walk()
+# a.bike()
+# a.car()
+
+    #3 MULTILEVEL INHERITANCE
+# class parent:
+#     def work(self):
+#         print('dad is working')
+# class son1(parent):
+#     def school(self):
+#         print('1st goes to school')
+# class son2(son1):
+#     def college(self):
+#         print('elder son pursuing college')    
+# a=son2()
+# a.work()
+# a.school()
+# a.college()
+
+    #4 HYBRID INHERITANCE
+# class school:
+#     def admin(self):
+#         print('welcome to the school')
+# class ground(school):
+#     def prayer(self):
+#         print('school time statrs by 8am')
+# class canteen(school):
+#     def interval(self):
+#         print('mrng break time is 10:30')
+# class administration(ground,canteen):
+#     def office(self):
+#         print('for enquiry contact office')
+# a=administration()
+# a.admin()
+# a.prayer()
+# a.interval()
+# a.office()
+
+    #5 HIERARCHICAL INHERITANCE
+# class parent():
+#     def read(self):
+#         print('father has the habit of reading books')
+# class son(parent):
+#     def play(self):
+#         print('son used to go the ground')
+# class daughter(parent):
+#     def yoga(self):
+#         print('daughter used to do yoga daily')
+
+# a=son()
+# a.read()
+# a.play()
+
+# b=daughter()
+# b.yoga()
+
+    #6 OVERRIDING 
+# class A:
+#     def welcome(self):
+#         print('hello')
+# class B(A):
+#     def welcome(self):
+#         print('Hello buddy! Welcome')
+# a=B()
+# a.welcome()
+
+    #7 SUPER KEYWORD
+# class A:
+#     def welcome(self):
+#         print('Hey all')
+# class B(A):
+#     def welcome(self):
+#         super().welcome()
+#         print('Hello buddy! Welcome')
+# a=B()
+# a.welcome()
 
     
