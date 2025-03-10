@@ -55,15 +55,54 @@
 # con=reduce(lambda x,y:x+y,s)
 # print('given string is:',con)
 
-    #15
-from functools import reduce
-number=[1,2,3]
-red=reduce(lambda x,y:(x+y)**2,number)
-print(red)
-
-    #17
-# import math
+    #16 SUM OF SQUARES
 # from functools import reduce
-# number=[1,2,3,4,5]
-# fact=reduce(lambda x:math.factorial(x),number)
-# print(fact) 
+# number=[1,2,3]
+# red=reduce(lambda x,y:(x+y)**2,number)
+# print('sum of squares is:',red)
+
+    #17 FACT OF NUM
+# from functools import reduce
+# n=int(input('enter number:'))
+# numbers = range(1, n + 1)
+# filtered_numbers = filter(lambda x: x > 0, numbers)
+# mapped_numbers = map(lambda x: x, filtered_numbers)
+# x=reduce(lambda x, y: x * y, mapped_numbers)
+# print('factorial of number is:',x)
+
+
+        #MODULES
+# import math
+# num = 25
+# print(f"Square root of {num} is:", math.sqrt(num))
+# n = 5
+# print(f"Factorial of {n} is:", math.factorial(n))
+# angle = 90
+# radians = math.radians(angle)  
+# print(f"Sin({angle}°) is:", math.sin(radians))
+
+# import random
+# rand_int = random.randint(1, 100)
+# print("Random Integer:", rand_int)
+# rand_float = random.random()
+# print("Random Float:", rand_float)
+# fruits = ["apple", "banana", "cherry", "grape"]
+# random_fruit = random.choice(fruits)
+# print("Random Fruit:", random_fruit)
+# numbers = [1, 2, 3, 4, 5]
+# random.shuffle(numbers)
+# print("Shuffled Numbers:", numbers)
+
+# import module
+# a=module.person['country'] and ['age']
+# print(a)
+
+# import random
+# random_int = random.random()
+# print(random_int)
+
+
+# my_list = ['apple', 'banana', 'cherry', 'date']
+# a = random.choice(my_list)
+# print(a)
+
