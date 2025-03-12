@@ -183,20 +183,21 @@
 # a=B()
 # a.welcome()
 
-        #ENCAPSULATION
-class bank:
-    def __init__(self,username,id,pin):
-        self.username=username
-        self._id=id
-        self.__pin=pin
 
-    def name(self):
-        print(f'Account holder name: {self.username}')
-    def account_id(self):
-        print(f'Account id: {self._id}')
-    def account__pin(self):
-          print(f'User pin: {self.__pin}')
-a=bank('Suriya','91200002623','2902')
-a.name()
-a.account_id()
-a.account__pin()
+        #ENCAPSULATION
+# class bank:
+#     def __init__(self,username,id,pin):
+#         self.username=username
+#         self._id=id
+#         self.__pin=pin
+
+#     def name(self):
+#         print(f'Account holder name: {self.username}')
+#     def account_id(self):
+#         print(f'Account id: {self._id}')
+#     def account__pin(self):
+#           print(f'User pin: {self.__pin}')
+# a=bank('Suriya','91200002623','2902')
+# a.name()
+# a.account_id()
+# a.account__pin()
